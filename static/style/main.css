@@ -1,0 +1,89 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#root {
+    overflow: hidden;
+}
+
+.login {
+    position: absolute;
+    top: calc(50% - 300px);
+    right: calc(50% - 300px);
+    border: 10px solid rgb(61, 226, 43);
+    border-radius: 80px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    color: rgb(61, 226, 43);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login h1 {
+    font-size: 80px;
+}
+
+.login button {
+    width: 300px;
+    height: 70px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(61, 226, 43);
+    border-radius: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.login input {
+    width: 300px;
+    height: 70px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    border-radius: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.top {
+    background-color: rgba(61, 226, 43, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 50px);
+    height: 50px;
+    border-bottom: 1px solid rgb(61, 226, 43);
+    padding: 25px;
+}
+
+.clock {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    visibility: hidden;
+}
+
+.clock h1 {
+    font-size: 80px;
+    color: rgb(61, 226, 43);
+    line-height: 180px;
+}
+
+.end {
+    visibility: hidden;
+}
+
+.win {
+    background-color: rgba(4, 255, 0, 0.4);
+}
+
+.lose {
+    background-color: rgba(255, 0, 0, 0.4);
+}
